@@ -77,9 +77,9 @@ wget https://pjreddie.com/media/files/darknet53.conv.74
 ## 8) Start training
 
 ```
-darknet detector train data/obj.data cfg/yolov3_training.cfg darknet53.conv.74 -dont_show
+./darknet detector train data/obj.data cfg/yolov3_training.cfg darknet53.conv.74 -dont_show
 # Use below command to re-start your training from last saved weights
-#!./darknet detector train data/obj.data cfg/yolov3_training.cfg provide the path to the folder where your weights are stored/yolov3_training_last.weights -dont_show
+./darknet detector train data/obj.data cfg/yolov3_training.cfg provide the path to the folder where your weights are stored/yolov3_training_last.weights -dont_show
 ```
 
 
