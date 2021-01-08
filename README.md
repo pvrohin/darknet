@@ -82,8 +82,11 @@ wget https://pjreddie.com/media/files/darknet53.conv.74
 ./darknet detector train data/obj.data cfg/yolov3_training.cfg provide the path to the folder where your weights are stored/yolov3_training_last.weights -dont_show
 ```
 
+## 9) Evaluating the model using a webcam for real time detection
 
-
+```
+python real_time_apple_detection.py
+```
 
 
 
